@@ -1,0 +1,88 @@
+-- [[ Settings ]] --
+
+getgenv().prefix = '!' -- prefix which should run the commands
+getgenv().controller = 229552696 -- controller must be in Qitkot group
+
+getgenv().gui = true -- recommneded to be on, to load UI on controller & reduce lag!
+getgenv().selfcommands = true -- allow you to use commands on controller account by adding s on of command
+
+getgenv().alts = { -- max 25 alts
+ Alt1 = 1576851929,
+ Alt2 = 1646601638,
+ Alt3 = 3183412009, 
+ Alt4 = 3183417733,
+ Alt5 = 3386461232,
+ Alt6 = 3386450876,
+ Alt7 = 3386464392,
+ Alt8 = 3173054984,
+ Alt9 = 3183425071,
+ Alt10 = 3183379397,
+ Alt11 = 2737813774,
+ Alt12 = 329021850,
+ Alt13 = 330646300, 
+ Alt14 = 245542613,
+ Alt15 = 2660731907,
+ Alt16 = 327602102,
+ Alt17 = 3188429723,
+ Alt18 = 3188431410,
+ Alt19 = 3188433493,
+ Alt20 = 1787528905,
+ Alt21 = 331348397,
+ Alt22 = 328488854,
+ Alt23 = 330668044, 
+ Alt24 = 251998704,
+ Alt25 = 330710417,
+ Alt26 = 328321307,
+}
+
+getgenv().commands = { -- change "commands" to anything else you want drop to run when you say, same for others down
+    ['QITKOT_CommandsList'] = "commands",
+    ['QITKOT_DropStart'] = "drop",
+    ['QITKOT_DropStop'] = "stop",
+    ['QITKOT_DropUntil'] = "dropuntil",
+    ['QITKOT_BringAlts'] = "bring",
+    ['QITKOT_SetupAlts'] = "setup",
+    ['QITKOT_CrashCMD'] = "crashswag",
+    ['QITKOT_TotalCashCount'] = "countcash",
+    ['QITKOT_KickAllAlts'] = "kickalts",
+    ['QITKOT_ToggleFreezeAlts'] = "freeze",
+    ['QITKOT_ShowOrHideWallet'] = "wallet",
+    ['QITKOT_AirLockAlts'] = "airlock",
+    ['QITKOT_ResetAltsCharacters'] = "reset",
+    ['QITKOT_SaySomething'] = "say",
+    ['QITKOT_SetTheFPSCap'] = "fps",
+    ['QITKOT_CashPickingToggle'] = "cashaura",
+    ['QITKOT_AltsVibingLOL'] = "vibe",
+    ['QITKOT_HideAlts'] = "hide",
+    ['QITKOT_AutoDestroyCash'] = 'loopdestroy',
+    ['QITKOT_LoopKillUser'] = 'loopkill',
+    ['QITKOT_StopLoopKill'] = 'stopkill',
+    ['QITKOT_LineUp'] = 'line',
+    ['QITKOT_HoldBlock'] = 'block',
+    ['QITKOT_SpamMessage'] = 'spam',
+    ['QITKOT_ToggleMask'] = 'mask',
+    ['QITKOT_WeightFarm'] = 'weightfarm',
+    ['QITKOT_LettuceFarm'] = 'lettucefarm',
+    ['QITKOT_GodMode'] = 'god',
+    ['QITKOT_StackAlts'] = 'stack',
+    ['QITKOT_WalletOfPlayer'] = 'walletof',
+    ['QITKOT_CircleAround'] = 'circle',
+    ['QITKOT_ChatSpy'] = 'spy',
+    ['QITKOT_Donate'] = 'donate',
+}
+
+getgenv().locations = { -- change "bank" to anything else you want location name to be replaced and used with, same for others down
+    ['QITKOT_InfrontBank'] = "bank",
+    ['QITKOT_AdminBase'] = "admin",
+    ['QITKOT_School'] = 'school',
+    ['QITKOT_Train'] = 'train',
+    ['QITKOT_SafeZone3'] = 'sz3',
+    ['QITKOT_BasketBall'] = 'basket',
+    ['QITKOT_TacoShop'] = 'taco',
+    ['QITKOT_AdminJail'] = 'jail',
+    ['QITKOT_UnderTrain'] = 'undertrain',
+}
+
+-- [[ Launcher ]] --
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Husam-Dev/altcontroller/main/qitkot.lua", true))()

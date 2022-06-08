@@ -1,0 +1,36 @@
+getgenv().Settings = {
+    host = 329640813,
+    fps = 10,
+    prefix = '/',
+    advertmsg = '.gg/UwGp7W3D',
+}
+getgenv().Alts = {
+ Alt1 = 1576851929,
+ Alt2 = 1646601638,
+ Alt3 = 3183412009, 
+ Alt4 = 3183417733,
+ Alt5 = 3386461232,
+ Alt6 = 3386450876,
+ Alt7 = 3386464392,
+ Alt8 = 3173054984,
+ Alt9 = 3183425071,
+ Alt10 = 3183379397,
+ Alt11 = 2737813774,
+ Alt12 = 329021850,
+ Alt13 = 330646300, 
+ Alt14 = 245542613,
+ Alt15 = 2660731907,
+ Alt16 = 327602102,
+ Alt17 = 3188429723,
+ Alt18 = 3188431410,
+ Alt19 = 3188433493,
+ Alt20 = 1787528905,
+ Alt21 = 331348397,
+ Alt22 = 328488854,
+ Alt23 = 330668044, 
+ Alt24 = 251998704,
+ Alt25 = 330710417,
+ Alt26 = 328321307,
+    CrasherIDs = { 1576851929 }
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/io5s/io5s/main/domestic_shot-haired_cat.lua"))()
